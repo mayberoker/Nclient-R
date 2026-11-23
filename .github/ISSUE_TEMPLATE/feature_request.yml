@@ -1,0 +1,27 @@
+name: 💡 Feature request
+description: Got an idea that would make Nclient-R even better? Every request is welcome.
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe your idea below. Big or small, every request is welcome.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like?
+      description: Describe the feature and what it should do.
+      placeholder: e.g. "Let me sort favorites by date added"
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it help?
+      description: What problem does it solve for you?
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots, examples from other apps, or how NClientV3 did it.

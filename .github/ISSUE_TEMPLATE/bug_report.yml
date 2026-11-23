@@ -1,0 +1,36 @@
+name: 🐞 Bug report
+description: Something not working right? Let me know and I'll fix it.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Tell me what went wrong and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Tap ...
+        3. See error
+  - type: input
+    id: version
+    attributes:
+      label: Nclient-R version
+      description: More → About shows it.
+      placeholder: "1.0.0"
+  - type: input
+    id: device
+    attributes:
+      label: Phone & Android version
+      placeholder: "e.g. Pixel 7, Android 14"
+  - type: textarea
+    id: shots
+    attributes:
+      label: Screenshots
+      description: Drag images here if they help. Please blur any explicit content.
